@@ -1,0 +1,15 @@
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\bin\Debug\StopWatch.exe.config
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\bin\Debug\StopWatch.exe
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\bin\Debug\StopWatch.pdb
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.AssemblyReference.cache
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\MainWindow.g.cs
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\App.g.cs
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch_MarkupCompile.cache
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch_MarkupCompile.lref
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\MainWindow.baml
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch.g.resources
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch.Properties.Resources.resources
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.GenerateResource.cache
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.CoreCompileInputs.cache
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch.exe
+C:\Users\sama\RiderProjects\StopWatch\StopWatch\obj\Debug\StopWatch.pdb
