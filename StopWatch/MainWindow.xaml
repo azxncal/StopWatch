@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:StopWatch"
         mc:Ignorable="d"
         Title="A Z X N ~ Stop Uhr" Height="350" Width="525">
         <Grid x:Name="MainGrid">
@@ -16,46 +15,23 @@
                 </Grid.Background>
                 
                 <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/> <!-- First Row for the Title -->
-                        <RowDefinition Height="*"/> <!-- Space for content like buttons -->
-                        <RowDefinition Height="Auto"/> <!-- Developed by text -->
+                        <RowDefinition Height="Auto"/> 
+                        <RowDefinition Height="*"/> 
+                        <RowDefinition Height="Auto"/> 
                 </Grid.RowDefinitions>
                 
                 
                         <!-- TitleTextBlock -->
-                        <TextBlock x:Name="TitleTextBlock" 
-                                   Grid.Row="1"
-                                   FontSize="50" 
-                                   Text="Stop Uhr" 
-                                   HorizontalAlignment="Center" 
-                                   FontStyle="Italic" 
-                                   FontWeight="Bold" 
-                                   Foreground="Aqua"/>
+                        <TextBlock x:Name="TitleTextBlock" Grid.Row="1" FontSize="50" Text="Stop Uhr" HorizontalAlignment="Center" FontStyle="Italic" FontWeight="Bold" Foreground="Aqua"/>
                         
                         <!-- TimeTextBlock -->
-                        <TextBlock x:Name="TimeDisplay" 
-                                   Grid.Row="1"
-                                   FontSize="48" 
-                                   Text="00:00:00:000" 
-                                   HorizontalAlignment="Center"
-                                   Margin="0, 55, 0, 0"/>
+                        <TextBlock x:Name="TimeDisplay" Grid.Row="1" FontSize="48" Text="00:00:00:000" HorizontalAlignment="Center" Margin="0, 55, 0, 0"/>
                         
                         
                         <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <!-- StartButton -->
-                                <Button x:Name="StartStopButton" 
-                                        Grid.Row="1"
-                                        Content="Start" 
-                                        Width="100" 
-                                        Click="StartStopButton_Click"
-                                        Margin="0,0,0,0"/>
-                        
-                                <!-- ResetButton -->
-                                <Button x:Name="ResetButton" 
-                                        Content="Reset" 
-                                        Width="100" 
-                                        Click="ResetButton_Click"
-                                        Margin="0,5,0,0"/>
+                                <Button x:Name="StartStopButton" Content="Start" Width="100" Click="StartStopButton_Click" Margin="0,0,0,0"/>
+                                
+                                <Button Content="Reset" Width="100" Click="ResetButton_Click" Margin="0,5,0,0"/>
                         </StackPanel>
         </Grid>
 </Window>
